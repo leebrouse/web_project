@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container_form{
+    height: calc(100vh - 30px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.LogInform{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 25px  45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 65%;
+}
+input{
+    height: 35px;
+    border-radius: 100px;
+    padding:10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h1{
+    font-size: 26px;
+    font-weight: 400px;
+    padding-bottom: 30px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+::placeholder{
+   color: black;
+}    
+
+button{
+    position: absolute;
+    
+    
+}
+  
+
